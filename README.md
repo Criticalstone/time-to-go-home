@@ -1,7 +1,7 @@
 # time-to-go-home
 get home for ucks sake!
 
-This calculation is based on 8 hours working day with a 42 minute lunch break.
+This calculation is based on 8 hours working day with a 42 minute lunch break. To change this edit the variables in the script.
 
 ## Requirements 
 python 3
