@@ -27,6 +27,8 @@ def main(startTime: str, endTime: str) -> None:
 if (__name__ == "__main__"):
     if (len(sys.argv) == 3):
         main(sys.argv[1], sys.argv[2])
-    else:
+    elif (len(sys.argv) == 2):
         main(sys.argv[1], "")
-    
+    else:
+        print("Usage python3 when-to-stop-coding.py <startTime> [<endTime>]")
+        exit(0)
